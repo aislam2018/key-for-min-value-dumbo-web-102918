@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
   counter = nil 
   name_hash.each do |key, value|
-    if counter == nil || :value < counter
-     counter = :value
+    if counter == nil || value < counter
+     counter = value
     end
   end
-  :key
+  key
 end
