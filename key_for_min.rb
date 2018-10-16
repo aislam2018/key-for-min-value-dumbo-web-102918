@@ -11,7 +11,3 @@ def key_for_min_value(name_hash)
   end
   low_key
 end
-
-:value => 37
-
-|key, value|
